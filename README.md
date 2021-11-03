@@ -1,3 +1,0 @@
-CITests
-
-testing
