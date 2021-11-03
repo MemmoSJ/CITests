@@ -20,7 +20,7 @@
         <repository>
             <id>git-corfixen</id>
             <name>corfixen's Git based repo</name>
-            <url>https://github.com/MemmoSJ/CITests</url>
+            <url>https://github.com/sweat-tek/MavenRepository/raw/repository/</url>
         </repository>
     </repositories>
     <dependencies>
