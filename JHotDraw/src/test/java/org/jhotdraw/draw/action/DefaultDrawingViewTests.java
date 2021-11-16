@@ -1,4 +1,4 @@
-package org.jhotdraw.app.action;
+package org.jhotdraw.draw.action;
 
 import org.jhotdraw.draw.*;
 import org.jhotdraw.samples.svg.figures.SVGPathFigure;
