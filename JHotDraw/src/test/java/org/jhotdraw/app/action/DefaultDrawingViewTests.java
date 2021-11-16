@@ -1,6 +1,5 @@
 package org.jhotdraw.app.action;
 
-import org.jhotdraw.app.action.PasteAction;
 import org.jhotdraw.draw.*;
 import org.jhotdraw.samples.svg.figures.SVGPathFigure;
 import org.junit.*;

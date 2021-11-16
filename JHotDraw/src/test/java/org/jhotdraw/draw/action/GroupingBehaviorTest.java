@@ -1,6 +1,7 @@
 package org.jhotdraw.draw.action;
 
 import com.tngtech.jgiven.junit.ScenarioTest;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class GroupingBehaviorTest extends ScenarioTest<GivenFiguresToGroup, WhenGrouping, ThenFiguresGrouped> {
@@ -43,6 +44,11 @@ public class GroupingBehaviorTest extends ScenarioTest<GivenFiguresToGroup, When
         when().ungroupingFigures();
 
         then().onlyTheSelectedGroupFigureIsUngrouped();
+    }
+
+    @Test
+    public void testme() {
+        Assert.assertTrue(true);
     }
 
 }
