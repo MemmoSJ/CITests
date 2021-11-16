@@ -90,6 +90,7 @@ public class DefaultDrawingViewTests {
 
         Assert.assertEquals(2, view.getDrawing().getChildren().size());
 
+        Assert.assertTrue(true);
     }
 
 }
