@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-public class DefaultDrawingViewTests {
+public class DefaultDrawingViewTest {
 
     private DefaultDrawingView view;
 
