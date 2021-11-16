@@ -1,4 +1,4 @@
-package org.jhotdraw.app.action;
+package org.jhotdraw.draw;
 
 import org.jhotdraw.draw.*;
 import org.jhotdraw.samples.svg.figures.SVGPathFigure;
@@ -90,7 +90,6 @@ public class DefaultDrawingViewTests {
 
         Assert.assertEquals(2, view.getDrawing().getChildren().size());
 
-        Assert.assertTrue(true);
     }
 
 }
