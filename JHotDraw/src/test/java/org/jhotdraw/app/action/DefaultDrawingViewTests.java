@@ -1,4 +1,4 @@
-package org.jhotdraw.draw.action;
+package org.jhotdraw.app.action;
 
 import org.jhotdraw.draw.*;
 import org.jhotdraw.samples.svg.figures.SVGPathFigure;
@@ -11,8 +11,6 @@ import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class DefaultDrawingViewTests {
 
@@ -76,8 +74,8 @@ public class DefaultDrawingViewTests {
 
         view.delete();
 
-        assertFalse(view.getDrawing().getChildren().containsAll(figuresList1));
-        assertTrue(view.getDrawing().getChildren().containsAll(figuresList2));
+        Assert.assertFalse(view.getDrawing().getChildren().containsAll(figuresList1));
+        Assert.assertTrue(view.getDrawing().getChildren().containsAll(figuresList2));
 
     }
 
@@ -90,7 +88,7 @@ public class DefaultDrawingViewTests {
 
         view.duplicate();
 
-        assertEquals(2, view.getDrawing().getChildren().size());
+        Assert.assertEquals(2, view.getDrawing().getChildren().size());
 
     }
 
